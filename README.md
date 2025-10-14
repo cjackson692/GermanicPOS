@@ -1,5 +1,16 @@
 # GermanicPOS
-
+### Structure
+Models:
+  - Contains Basic formations of the model for the maximal sample (TBA)
+  - Ablation
+    - Contains scheduler to subsample and train for the ablation study
+Datasets:
+  - Contains extracted aligned sentence-tag arrays for all languages, including the OHG dialect subsamples
+  - Generation
+    - Contains Scripts used to generate the aligned arrays from the source data
+Results & Visualizations:
+  - Contains The output accuracies of all of the models grouped by language (all sample sizes)
+  - Contains code to generate the plots used in the paper
 
 ### Dataset Citation Info
 De Herdt, T. (1997). Project Wulfila : an electronic edition of the Gothic Bible. Universitaire Faculteiten Sint-Ignatius Antwerpen.
