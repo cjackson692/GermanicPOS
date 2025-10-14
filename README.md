@@ -2,7 +2,7 @@
 ### Structure
 
 Models:
-  - Contains Basic formations of the model for the maximal sample (TBA)
+  - Contains Basic formations of the model for the maximal sample
   - Ablation
     - Contains scheduler to subsample and train for the ablation study
 
