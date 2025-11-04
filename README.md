@@ -1,6 +1,5 @@
 # GermanicPOS
 ### Structure
-
 Models:
   - Contains Basic formations of the model for the maximal sample
   - Ablation
@@ -8,8 +7,6 @@ Models:
 
 Datasets:
   - Contains extracted aligned sentence-tag arrays for all languages, including the OHG dialect subsamples
-  - Generation
-    - Contains Scripts used to generate the aligned arrays from the source data (TBA)
   
 Results & Visualizations:
   - Contains The output accuracies of all of the models grouped by language (all sample sizes)
