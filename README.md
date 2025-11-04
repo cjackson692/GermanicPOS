@@ -1,14 +1,18 @@
 # GermanicPOS
 ### Structure
 Models:
-  - Contains Basic formations of the model for the maximal sample
+  - Contains Basic formations of the model. These jupyter notebooks can be dowloaded alongside the corresponding datasets and run as is to reproduce the results of the study.
+    - The OHG dialect examination can be replicated by replacing the file name in the data loading at the beginning of the notebook, to call the desired dialectal subset ("OHG_sents_notker.npy", "OHG_sents_notker2.npy", "OHG_sents_heterogenous.npy") and ("OHG_tags_minimal_notker.npy", "OHG_tags_minimal_notker2.npy", "OHG_tags_minimal_heterogenous.npy")
   - Ablation
     - Contains scheduler to subsample and train for the ablation study
-
+    - Each ablation file contains the essential contents of the corresponding language models, placed in a loop such that it trains the model 100 times per language per desired dataset size
+    - 
 Datasets:
-  - Contains extracted aligned sentence-tag arrays for all languages, including the OHG dialect subsamples
+  - Contains extracted aligned sentence-tag arrays for all languages, including the OHG dialect subsamples, parsed from the datasets cited below
+  - Tagset Descriptions (Appendix A) is a reproduction of the appendix from the associated study. This provides a complete list of subsititutions and conversions that were made to produce the X_tags_minimal.npy files available here
   
 Results & Visualizations:
+  - The files here are the complete results set from the original study for any examination
   - Contains The output accuracies of all of the models grouped by language (all sample sizes)
   - Contains code to generate the plots used in the paper
 
