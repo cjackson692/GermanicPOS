@@ -9,7 +9,7 @@ Models:
     - 
 Datasets:
   - Contains extracted aligned sentence-tag arrays for all languages, including the OHG dialect subsamples, parsed from the datasets cited below
-  - Tagset Descriptions (Appendix A) is a reproduction of the appendix from the associated study. This provides a complete list of subsititutions and conversions that were made to produce the X_tags_minimal.npy files available here
+  - Tagset Descriptions is a reproduction of the appendix from the associated study. This provides a complete list of subsititutions and conversions that were made to produce the X_tags_minimal.npy files available here
   
 Results & Visualizations:
   - The files here are the complete results set from the original study for any examination
